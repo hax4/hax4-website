@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 * {
-  font-family: 'Baloo Tamma 2', serif;
+  font-family: 'Baloo Tamma 2', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,7 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight: bold;
+  /* font-weight: bold; */
+  color: transparent;
+  background: url(../images/logo.svg) no-repeat;
+  margin: 1em 0;
 }
 
 p {
@@ -86,4 +89,16 @@ html {
 .description {
   color: #999;
   font-size: 0.9em;
+}
+
+.copyright {
+  margin-top: 2em;
+}
+
+a.nonhightlight {
+  color: #333;
+}
+
+span.icon-home {
+  margin-right: 0.5em;
 }
