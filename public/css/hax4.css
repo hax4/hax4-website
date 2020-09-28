@@ -81,6 +81,22 @@ html {
   border-radius: 100%;
 }
 
+.customer-logo {
+  width: 100px;
+  margin-right: 1em;
+  filter: grayscale(1);
+  transition: filter .5s;
+}
+
+.customer-logo:hover {
+  filter: grayscale(0)
+}
+
+.yuanrushi-logo {
+  padding: 5px;
+  background-color: #000;
+}
+
 .name {
   font-size: 1.1em;
   text-transform: uppercase;
