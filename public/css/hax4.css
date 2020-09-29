@@ -61,8 +61,7 @@ html {
 }
 
 .team {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: block;
   margin-bottom: 3em;
 }
 
@@ -81,20 +80,25 @@ html {
   border-radius: 100%;
 }
 
-.customer-logo {
+.client-logo {
   width: 100px;
   margin-right: 1em;
-  filter: grayscale(1);
   transition: filter .5s;
 }
 
-.customer-logo:hover {
-  filter: grayscale(0)
+.clients {
+  display: grid;
+  grid-template-columns: 7em 7em 7em;
+  align-items: center;
 }
 
-.yuanrushi-logo {
+.client-logo {
+  height: 80px;
+  align-content: center;
+}
+
+.client-logo.yuanrushi-logo {
   padding: 5px;
-  background-color: #000;
 }
 
 .name {
