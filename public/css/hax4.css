@@ -88,7 +88,7 @@ html {
 
 .clients {
   display: grid;
-  grid-template-columns: 7em 7em 7em;
+  grid-template-columns: 25% 25% 25% 25%;
   align-items: center;
 }
 
