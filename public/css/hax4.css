@@ -66,11 +66,16 @@ html {
 }
 
 .item {
+  position: relative;
   margin-bottom: 1.5em;
 }
 
 .item a {
   text-decoration: none;
+}
+
+.item.wip {
+  opacity: 0.3;
 }
 
 .avatar {
